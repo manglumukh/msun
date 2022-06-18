@@ -174,6 +174,8 @@ p {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -182,6 +184,7 @@ p {
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
 }
+
 #header.header-scrolled, #header.header-inner-pages {
   top: 0;
 }
@@ -206,6 +209,8 @@ p {
     border: 0;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -392,7 +397,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/logo.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
